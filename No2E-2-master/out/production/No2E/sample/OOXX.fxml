@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<GridPane fx:id="OOXX" alignment="center" hgap="10" prefHeight="360.0" prefWidth="480.0" vgap="10" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.OOXXController">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints maxHeight="0.0" minHeight="0.0" prefHeight="0.0" />
+      <RowConstraints maxHeight="15.2" minHeight="15.2" prefHeight="15.2" />
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <GridPane prefHeight="398.0" prefWidth="512.0" GridPane.rowIndex="3">
+        <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="160.0" minWidth="10.0" prefWidth="160.0" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="160.0" minWidth="10.0" prefWidth="160.0" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="160.0" minWidth="10.0" prefWidth="160.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Button fx:id="bt7" mnemonicParsing="false" onAction="#bt7Action" prefHeight="120.0" prefWidth="160.0" />
+            <Button fx:id="bt4" mnemonicParsing="false" onAction="#bt4Action" prefHeight="120.0" prefWidth="160.0" GridPane.rowIndex="1" />
+            <Button fx:id="bt8" mnemonicParsing="false" onAction="#bt8Action" prefHeight="120.0" prefWidth="160.0" GridPane.columnIndex="1" />
+            <Button fx:id="bt5" mnemonicParsing="false" onAction="#bt5Action" prefHeight="120.0" prefWidth="160.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Button fx:id="bt9" mnemonicParsing="false" onAction="#bt9Action" prefHeight="120.0" prefWidth="160.0" GridPane.columnIndex="2" />
+            <Button fx:id="bt6" mnemonicParsing="false" onAction="#bt6Action" prefHeight="120.0" prefWidth="160.0" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+            <Button fx:id="bt1" mnemonicParsing="false" onAction="#bt1Action" prefHeight="120.0" prefWidth="160.0" GridPane.rowIndex="2" />
+            <Button fx:id="bt2" mnemonicParsing="false" onAction="#bt2Action" prefHeight="120.0" prefWidth="160.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <Button fx:id="bt3" mnemonicParsing="false" onAction="#bt3Action" prefHeight="120.0" prefWidth="160.0" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+         </children>
+      </GridPane>
+      <Label fx:id="lab" prefHeight="37.0" prefWidth="480.0" text="Player1" GridPane.rowIndex="2" />
+   </children>
+</GridPane>
